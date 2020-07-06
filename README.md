@@ -2,6 +2,7 @@
 A simple script to place Player Peds
 
 List of player peds: https://wiki.rage.mp/index.php?title=Peds
+
 List of animations: https://docs.ragepluginhook.net/html/62951c37-a440-478c-b389-c471230ddfc5.htm
 
 //Example
