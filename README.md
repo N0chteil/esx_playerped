@@ -1,4 +1,4 @@
-# esx_playerped
+# FiveM PlayerPed
 A simple script to place Player Peds
 
 List of player peds: https://wiki.rage.mp/index.php?title=Peds
