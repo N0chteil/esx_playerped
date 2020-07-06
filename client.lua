@@ -15,6 +15,7 @@ local coord = {
       
           RequestAnimDict("mini@strip_club@idles@bouncer@base")
           while not HasAnimDictLoaded("mini@strip_club@idles@bouncer@base") do
+	  -- while not HasAnimDictLoaded("YOUR-ANIMATION") do | further information in the README.MD
             Wait(1)
           end
           ped =  CreatePed(4, v[6],v[1],v[2],v[3], 3374176, false, true)
@@ -23,6 +24,7 @@ local coord = {
           SetEntityInvincible(ped, true)
           SetBlockingOfNonTemporaryEvents(ped, true)
           TaskPlayAnim(ped,"mini@strip_club@idles@bouncer@base","base", 8.0, 0.0, -1, 1, 0, 0, 0, 0)
+	  -- TaskPlayAnim(ped,"YOUR-ANIMATION","base", 8.0, 0.0, -1, 1, 0, 0, 0, 0) | further information in the README.MD
         end
     end)
 
